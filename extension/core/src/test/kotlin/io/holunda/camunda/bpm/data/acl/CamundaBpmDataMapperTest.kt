@@ -6,7 +6,7 @@ import io.holunda.camunda.bpm.data.acl.apply.LocalScopeReplaceStrategy
 import io.holunda.camunda.bpm.data.acl.transform.IdentityVariableMapTransformer
 import io.holunda.camunda.bpm.data.guard.VariablesGuard
 import org.assertj.core.api.Assertions.assertThat
-import org.camunda.bpm.engine.variable.VariableMap
+import org.operaton.bpm.engine.variable.VariableMap
 import org.junit.jupiter.api.Test
 
 class CamundaBpmDataMapperTest {

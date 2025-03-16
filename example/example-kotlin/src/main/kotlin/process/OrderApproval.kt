@@ -17,10 +17,10 @@ import io.holunda.camunda.bpm.data.guard.condition.exists
 import io.holunda.camunda.bpm.data.guard.condition.matches
 import io.holunda.camunda.bpm.data.guard.integration.DefaultGuardTaskListener
 import mu.KLogging
-import org.camunda.bpm.engine.delegate.DelegateExecution
-import org.camunda.bpm.engine.delegate.DelegateTask
-import org.camunda.bpm.engine.delegate.ExecutionListener
-import org.camunda.bpm.engine.delegate.JavaDelegate
+import org.operaton.bpm.engine.delegate.DelegateExecution
+import org.operaton.bpm.engine.delegate.DelegateTask
+import org.operaton.bpm.engine.delegate.ExecutionListener
+import org.operaton.bpm.engine.delegate.JavaDelegate
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration

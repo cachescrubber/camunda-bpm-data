@@ -1,7 +1,7 @@
 package io.holunda.camunda.bpm.data.adapter.listofmaps
 
 import java.util.*
-import org.camunda.bpm.engine.RuntimeService
+import org.operaton.bpm.engine.RuntimeService
 
 /**
  * Read write adapter for runtime service access.

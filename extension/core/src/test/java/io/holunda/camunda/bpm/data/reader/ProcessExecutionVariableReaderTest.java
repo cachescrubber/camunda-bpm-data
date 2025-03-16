@@ -2,7 +2,7 @@ package io.holunda.camunda.bpm.data.reader;
 
 import io.holunda.camunda.bpm.data.CamundaBpmData;
 import io.holunda.camunda.bpm.data.factory.VariableFactory;
-import org.camunda.bpm.engine.RuntimeService;
+import org.operaton.bpm.engine.RuntimeService;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

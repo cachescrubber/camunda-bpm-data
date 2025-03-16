@@ -1,7 +1,7 @@
 package io.holunda.camunda.bpm.data.itest
 
 import io.holunda.camunda.bpm.data.adapter.VariableNotFoundException
-import org.camunda.bpm.engine.variable.Variables.createVariables
+import org.operaton.bpm.engine.variable.Variables.createVariables
 import org.junit.jupiter.api.Test
 import org.springframework.beans.factory.annotation.Autowired
 import java.util.*

@@ -30,8 +30,8 @@
 
 
     <dependency>
-      <groupId>org.camunda.commons</groupId>
-      <artifactId>camunda-commons-typed-values</artifactId>
+      <groupId>org.operaton.commons</groupId>
+      <artifactId>operaton-commons-typed-values</artifactId>
     </dependency>
 
     <dependency>
@@ -39,14 +39,17 @@
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.camunda.spin</groupId>
-      <artifactId>camunda-spin-core</artifactId>
+      <groupId>org.operaton.spin</groupId>
+      <artifactId>operaton-spin-core</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.camunda.spin</groupId>
-      <artifactId>camunda-spin-dataformat-json-jackson</artifactId>
+      <groupId>org.operaton.spin</groupId>
+      <artifactId>operaton-spin-dataformat-json-jackson</artifactId>
     </dependency>
-
+    <dependency>
+      <groupId>org.operaton.commons</groupId>
+      <artifactId>operaton-commons-typed-values</artifactId>
+    </dependency>
     <!-- Jackson -->
     <dependency>
       <groupId>com.fasterxml.jackson.datatype</groupId>

@@ -2,7 +2,7 @@ package io.holunda.camunda.bpm.data.spin;
 
 import com.fasterxml.jackson.databind.JavaType;
 import com.fasterxml.jackson.databind.type.TypeFactory;
-import org.camunda.spin.spi.TypeDetector;
+import org.operaton.spin.spi.TypeDetector;
 
 import java.lang.reflect.TypeVariable;
 import java.util.Collection;

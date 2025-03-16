@@ -1,6 +1,6 @@
 package io.holunda.camunda.bpm.data.acl.transform
 
-import org.camunda.bpm.engine.variable.VariableMap
+import org.operaton.bpm.engine.variable.VariableMap
 
 /**
  * Performs no transformation (1:1 mapping).

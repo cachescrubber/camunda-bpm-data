@@ -36,20 +36,20 @@
       <artifactId>spring-boot-starter-data-jpa</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.camunda.bpm.springboot</groupId>
-      <artifactId>camunda-bpm-spring-boot-starter-rest</artifactId>
+      <groupId>org.operaton.bpm.springboot</groupId>
+      <artifactId>operaton-bpm-spring-boot-starter-rest</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.camunda.bpm</groupId>
-      <artifactId>camunda-engine-plugin-spin</artifactId>
+      <groupId>org.operaton.bpm</groupId>
+      <artifactId>operaton-engine-plugin-spin</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.camunda.spin</groupId>
-      <artifactId>camunda-spin-core</artifactId>
+      <groupId>org.operaton.spin</groupId>
+      <artifactId>operaton-spin-core</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.camunda.spin</groupId>
-      <artifactId>camunda-spin-dataformat-json-jackson</artifactId>
+      <groupId>org.operaton.spin</groupId>
+      <artifactId>operaton-spin-dataformat-json-jackson</artifactId>
     </dependency>
 
     <!-- Jackson -->

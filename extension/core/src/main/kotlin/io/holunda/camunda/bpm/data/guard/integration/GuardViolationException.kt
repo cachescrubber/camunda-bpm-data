@@ -1,7 +1,7 @@
 package io.holunda.camunda.bpm.data.guard.integration
 
 import io.holunda.camunda.bpm.data.guard.GuardViolation
-import org.camunda.bpm.engine.ProcessEngineException
+import org.operaton.bpm.engine.ProcessEngineException
 
 /**
  * Exception indicating a guard violation.

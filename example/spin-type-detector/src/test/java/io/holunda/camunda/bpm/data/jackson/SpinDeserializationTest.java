@@ -1,13 +1,13 @@
 package io.holunda.camunda.bpm.data.jackson;
 
 import org.assertj.core.util.Lists;
-import org.camunda.spin.json.SpinJsonNode;
+import org.operaton.spin.json.SpinJsonNode;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.camunda.spin.Spin.JSON;
+import static org.operaton.spin.Spin.JSON;
 
 public class SpinDeserializationTest {
 

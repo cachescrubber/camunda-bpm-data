@@ -1,7 +1,7 @@
 package io.holunda.camunda.bpm.data.example.noengine;
 
 import io.holunda.camunda.bpm.data.reader.VariableReader;
-import org.camunda.bpm.engine.variable.VariableMap;
+import org.operaton.bpm.engine.variable.VariableMap;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;

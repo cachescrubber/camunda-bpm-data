@@ -5,16 +5,16 @@ import com.tngtech.jgiven.annotation.BeforeScenario
 import com.tngtech.jgiven.annotation.ProvidedScenarioState
 import com.tngtech.jgiven.integration.spring.JGivenStage
 import org.assertj.core.api.Assertions
-import org.camunda.bpm.engine.RepositoryService
-import org.camunda.bpm.engine.RuntimeService
-import org.camunda.bpm.engine.TaskService
-import org.camunda.bpm.engine.repository.ProcessDefinition
-import org.camunda.bpm.engine.runtime.ProcessInstance
-import org.camunda.bpm.engine.task.Task
-import org.camunda.bpm.engine.variable.VariableMap
-import org.camunda.bpm.engine.variable.Variables
-import org.camunda.bpm.model.bpmn.Bpmn
-import org.camunda.bpm.model.bpmn.BpmnModelInstance
+import org.operaton.bpm.engine.RepositoryService
+import org.operaton.bpm.engine.RuntimeService
+import org.operaton.bpm.engine.TaskService
+import org.operaton.bpm.engine.repository.ProcessDefinition
+import org.operaton.bpm.engine.runtime.ProcessInstance
+import org.operaton.bpm.engine.task.Task
+import org.operaton.bpm.engine.variable.VariableMap
+import org.operaton.bpm.engine.variable.Variables
+import org.operaton.bpm.model.bpmn.Bpmn
+import org.operaton.bpm.model.bpmn.BpmnModelInstance
 import org.junit.jupiter.api.Assertions.assertThrows
 import org.springframework.beans.factory.annotation.Autowired
 
@@ -61,10 +61,10 @@ class ActionStage : Stage<ActionStage>() {
   ): ActionStage {
 
     val instance = Bpmn.createExecutableProcess(processDefinitionKey)
-      .camundaHistoryTimeToLive(1)
+      .operatonHistoryTimeToLive(1)
       .startEvent("start")
       .serviceTask("service_task")
-      .camundaDelegateExpression(delegateExpression)
+      .operatonDelegateExpression(delegateExpression)
       .endEvent("end")
       .done()
 
@@ -79,7 +79,7 @@ class ActionStage : Stage<ActionStage>() {
   ): ActionStage {
 
     val instance = Bpmn.createExecutableProcess(processDefinitionKey)
-      .camundaHistoryTimeToLive(1)
+      .operatonHistoryTimeToLive(1)
       .startEvent("start")
       .userTask(taskDefinitionKey)
       .endEvent("end")
@@ -97,11 +97,11 @@ class ActionStage : Stage<ActionStage>() {
   ): ActionStage {
 
     val instance = Bpmn.createExecutableProcess(processDefinitionKey)
-      .camundaHistoryTimeToLive(1)
+      .operatonHistoryTimeToLive(1)
       .startEvent("start")
       .userTask(taskDefinitionKey)
       .serviceTask("service_task")
-      .camundaDelegateExpression(delegateExpression)
+      .operatonDelegateExpression(delegateExpression)
       .endEvent("end")
       .done()
     deploy(processDefinitionKey, instance)
@@ -116,10 +116,10 @@ class ActionStage : Stage<ActionStage>() {
   ): ActionStage {
 
     val instance = Bpmn.createExecutableProcess(processDefinitionKey)
-      .camundaHistoryTimeToLive(1)
+      .operatonHistoryTimeToLive(1)
       .startEvent("start")
       .userTask(taskDefinitionKey)
-      .camundaTaskListenerDelegateExpression("complete", delegateExpression)
+      .operatonTaskListenerDelegateExpression("complete", delegateExpression)
       .endEvent("end")
       .done()
     deploy(processDefinitionKey, instance)
@@ -134,12 +134,12 @@ class ActionStage : Stage<ActionStage>() {
   ): ActionStage {
 
     val instance = Bpmn.createExecutableProcess(processDefinitionKey)
-      .camundaHistoryTimeToLive(1)
+      .operatonHistoryTimeToLive(1)
       .startEvent("start")
       .serviceTask("modifying_service_task")
-      .camundaDelegateExpression(modifyingDelegateExpression)
+      .operatonDelegateExpression(modifyingDelegateExpression)
       .serviceTask("service_task")
-      .camundaDelegateExpression(delegateExpression)
+      .operatonDelegateExpression(delegateExpression)
       .endEvent("end")
       .done()
 

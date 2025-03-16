@@ -1,14 +1,14 @@
 package io.holunda.camunda.bpm.data.example.process;
 
-import org.camunda.bpm.engine.RuntimeService;
-import org.camunda.bpm.engine.runtime.ProcessInstance;
-import org.camunda.bpm.engine.variable.VariableMap;
+import org.operaton.bpm.engine.RuntimeService;
+import org.operaton.bpm.engine.runtime.ProcessInstance;
+import org.operaton.bpm.engine.variable.VariableMap;
 import org.springframework.stereotype.Component;
 
 import java.util.UUID;
 
 import static io.holunda.camunda.bpm.data.example.process.OrderApproval.ORDER_ID;
-import static org.camunda.bpm.engine.variable.Variables.createVariables;
+import static org.operaton.bpm.engine.variable.Variables.createVariables;
 
 /**
  * Factory to create instance factory.

@@ -3,7 +3,7 @@ package io.holunda.camunda.bpm.data.acl.apply
 import io.holunda.camunda.bpm.data.CamundaBpmData
 import io.holunda.camunda.bpm.data.CamundaBpmData.stringVariable
 import org.assertj.core.api.Assertions
-import org.camunda.bpm.engine.delegate.DelegateExecution
+import org.operaton.bpm.engine.delegate.DelegateExecution
 import org.junit.jupiter.api.Test
 import org.mockito.Mockito.*
 

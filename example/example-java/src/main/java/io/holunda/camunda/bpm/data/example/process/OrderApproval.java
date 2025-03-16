@@ -7,7 +7,7 @@ import io.holunda.camunda.bpm.data.factory.VariableFactory;
 import io.holunda.camunda.bpm.data.guard.VariablesGuard;
 import io.holunda.camunda.bpm.data.guard.integration.DefaultGuardExecutionListener;
 import io.holunda.camunda.bpm.data.guard.integration.DefaultGuardTaskListener;
-import org.camunda.bpm.engine.delegate.*;
+import org.operaton.bpm.engine.delegate.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

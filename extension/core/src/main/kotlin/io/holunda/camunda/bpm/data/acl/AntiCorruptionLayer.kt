@@ -5,10 +5,10 @@ import io.holunda.camunda.bpm.data.acl.transform.VariableMapTransformer
 import io.holunda.camunda.bpm.data.factory.VariableFactory
 import io.holunda.camunda.bpm.data.guard.VariablesGuard
 import io.holunda.camunda.bpm.data.guard.integration.GuardViolationException
-import org.camunda.bpm.engine.delegate.ExecutionListener
-import org.camunda.bpm.engine.delegate.TaskListener
-import org.camunda.bpm.engine.variable.VariableMap
-import org.camunda.bpm.engine.variable.Variables
+import org.operaton.bpm.engine.delegate.ExecutionListener
+import org.operaton.bpm.engine.delegate.TaskListener
+import org.operaton.bpm.engine.variable.VariableMap
+import org.operaton.bpm.engine.variable.Variables
 
 /**
  * Defines the ACL (Anti-Corruption-Layer).

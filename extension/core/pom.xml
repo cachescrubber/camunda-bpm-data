@@ -39,18 +39,18 @@
 
     <!-- Engine -->
     <dependency>
-      <groupId>org.camunda.bpm</groupId>
-      <artifactId>camunda-engine</artifactId>
+      <groupId>org.operaton.bpm</groupId>
+      <artifactId>operaton-engine</artifactId>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.camunda.spin</groupId>
-      <artifactId>camunda-spin-core</artifactId>
+      <groupId>org.operaton.spin</groupId>
+      <artifactId>operaton-spin-core</artifactId>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.camunda.spin</groupId>
-      <artifactId>camunda-spin-dataformat-json-jackson</artifactId>
+      <groupId>org.operaton.spin</groupId>
+      <artifactId>operaton-spin-dataformat-json-jackson</artifactId>
       <scope>provided</scope>
     </dependency>
 
@@ -62,13 +62,13 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.camunda.bpm</groupId>
-      <artifactId>camunda-bpm-assert</artifactId>
+      <groupId>org.operaton.bpm</groupId>
+      <artifactId>operaton-bpm-assert</artifactId>
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.camunda.bpm</groupId>
-      <artifactId>camunda-bpm-junit5</artifactId>
+      <groupId>org.operaton.bpm</groupId>
+      <artifactId>operaton-bpm-junit5</artifactId>
       <scope>test</scope>
     </dependency>
     <dependency>

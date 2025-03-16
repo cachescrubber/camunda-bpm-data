@@ -1,7 +1,7 @@
 package io.holunda.camunda.bpm.data.adapter
 
-import org.camunda.bpm.engine.variable.Variables
-import org.camunda.bpm.engine.variable.value.TypedValue
+import org.operaton.bpm.engine.variable.Variables
+import org.operaton.bpm.engine.variable.value.TypedValue
 import java.io.File
 import java.util.*
 

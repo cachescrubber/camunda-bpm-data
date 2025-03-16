@@ -47,22 +47,25 @@
       <artifactId>spring-boot-starter-data-jpa</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.camunda.bpm.springboot</groupId>
-      <artifactId>camunda-bpm-spring-boot-starter-rest</artifactId>
+      <groupId>org.operaton.bpm.springboot</groupId>
+      <artifactId>operaton-bpm-spring-boot-starter-rest</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.camunda.bpm</groupId>
-      <artifactId>camunda-engine-plugin-spin</artifactId>
+      <groupId>org.operaton.bpm</groupId>
+      <artifactId>operaton-engine-plugin-spin</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.camunda.spin</groupId>
-      <artifactId>camunda-spin-core</artifactId>
+      <groupId>org.operaton.spin</groupId>
+      <artifactId>operaton-spin-core</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.camunda.spin</groupId>
-      <artifactId>camunda-spin-dataformat-json-jackson</artifactId>
+      <groupId>org.operaton.spin</groupId>
+      <artifactId>operaton-spin-dataformat-json-jackson</artifactId>
     </dependency>
-
+    <dependency>
+      <groupId>org.operaton.commons</groupId>
+      <artifactId>operaton-commons-typed-values</artifactId>
+    </dependency>
     <!-- Jackson -->
     <dependency>
       <groupId>com.fasterxml.jackson.datatype</groupId>
@@ -84,14 +87,14 @@
 
     <!-- Testing -->
     <dependency>
-      <groupId>org.camunda.bpm</groupId>
-      <artifactId>camunda-bpm-assert</artifactId>
+      <groupId>org.operaton.bpm</groupId>
+      <artifactId>operaton-bpm-assert</artifactId>
       <scope>test</scope>
     </dependency>
 
     <dependency>
-      <groupId>org.camunda.bpm.springboot</groupId>
-      <artifactId>camunda-bpm-spring-boot-starter-test</artifactId>
+      <groupId>org.operaton.bpm.springboot</groupId>
+      <artifactId>operaton-bpm-spring-boot-starter-test</artifactId>
       <scope>test</scope>
       <exclusions>
         <exclusion>
@@ -106,8 +109,8 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.camunda.bpm</groupId>
-      <artifactId>camunda-bpm-junit5</artifactId>
+      <groupId>org.operaton.bpm</groupId>
+      <artifactId>operaton-bpm-junit5</artifactId>
       <scope>test</scope>
     </dependency>
   </dependencies>
@@ -131,8 +134,8 @@
       </activation>
       <dependencies>
         <dependency>
-          <groupId>org.camunda.bpm.springboot</groupId>
-          <artifactId>camunda-bpm-spring-boot-starter-webapp</artifactId>
+          <groupId>org.operaton.bpm.springboot</groupId>
+          <artifactId>operaton-bpm-spring-boot-starter-webapp</artifactId>
         </dependency>
       </dependencies>
     </profile>
@@ -145,8 +148,8 @@
       </activation>
       <dependencies>
         <dependency>
-          <groupId>org.camunda.bpm.springboot</groupId>
-          <artifactId>camunda-bpm-spring-boot-starter-webapp-ee</artifactId>
+          <groupId>org.operaton.bpm.springboot</groupId>
+          <artifactId>operaton-bpm-spring-boot-starter-webapp-ee</artifactId>
         </dependency>
       </dependencies>
     </profile>

@@ -1,13 +1,13 @@
 package io.holunda.camunda.bpm.data;
 
 import io.holunda.camunda.bpm.data.factory.VariableFactory;
-import org.camunda.bpm.engine.delegate.VariableScope;
-import org.camunda.bpm.engine.impl.core.variable.CoreVariableInstance;
-import org.camunda.bpm.engine.impl.core.variable.scope.AbstractVariableScope;
-import org.camunda.bpm.engine.impl.core.variable.scope.SimpleVariableInstance;
-import org.camunda.bpm.engine.impl.core.variable.scope.VariableInstanceFactory;
-import org.camunda.bpm.engine.impl.core.variable.scope.VariableInstanceLifecycleListener;
-import org.camunda.bpm.engine.impl.core.variable.scope.VariableStore;
+import org.operaton.bpm.engine.delegate.VariableScope;
+import org.operaton.bpm.engine.impl.core.variable.CoreVariableInstance;
+import org.operaton.bpm.engine.impl.core.variable.scope.AbstractVariableScope;
+import org.operaton.bpm.engine.impl.core.variable.scope.SimpleVariableInstance;
+import org.operaton.bpm.engine.impl.core.variable.scope.VariableInstanceFactory;
+import org.operaton.bpm.engine.impl.core.variable.scope.VariableInstanceLifecycleListener;
+import org.operaton.bpm.engine.impl.core.variable.scope.VariableStore;
 
 import java.util.Collections;
 import java.util.List;

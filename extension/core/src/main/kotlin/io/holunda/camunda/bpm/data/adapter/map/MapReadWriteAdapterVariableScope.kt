@@ -1,6 +1,6 @@
 package io.holunda.camunda.bpm.data.adapter.map
 
-import org.camunda.bpm.engine.delegate.VariableScope
+import org.operaton.bpm.engine.delegate.VariableScope
 import java.util.*
 
 /**

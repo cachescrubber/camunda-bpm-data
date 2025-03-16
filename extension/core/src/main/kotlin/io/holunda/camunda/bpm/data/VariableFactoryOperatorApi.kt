@@ -1,8 +1,8 @@
 package io.holunda.camunda.bpm.data
 
 import io.holunda.camunda.bpm.data.factory.VariableFactory
-import org.camunda.bpm.engine.delegate.VariableScope
-import org.camunda.bpm.engine.variable.VariableMap
+import org.operaton.bpm.engine.delegate.VariableScope
+import org.operaton.bpm.engine.variable.VariableMap
 
 /**
  * Operator getter from global scope.

@@ -2,8 +2,8 @@ package io.holunda.camunda.bpm.data.adapter;
 
 import io.holunda.camunda.bpm.data.CamundaBpmData;
 import io.holunda.camunda.bpm.data.factory.VariableFactory;
-import org.camunda.bpm.engine.RuntimeService;
-import org.camunda.bpm.engine.variable.Variables;
+import org.operaton.bpm.engine.RuntimeService;
+import org.operaton.bpm.engine.variable.Variables;
 import org.junit.jupiter.api.Test;
 
 import java.util.UUID;

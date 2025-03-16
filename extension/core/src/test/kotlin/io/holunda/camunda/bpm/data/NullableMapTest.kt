@@ -6,7 +6,7 @@ import io.holunda.camunda.bpm.data.NullableMapTest.TestVariables.NO_NULL_MAP
 import io.holunda.camunda.bpm.data.NullableMapTest.TestVariables.NULL_MAP
 import io.holunda.camunda.bpm.data.factory.VariableFactory
 import org.assertj.core.api.Assertions.assertThat
-import org.camunda.bpm.engine.variable.Variables.createVariables
+import org.operaton.bpm.engine.variable.Variables.createVariables
 import org.junit.jupiter.api.Test
 
 internal class NullableMapTest {

@@ -4,7 +4,7 @@ import io.holunda.camunda.bpm.data.adapter.AbstractReadWriteAdapter
 import io.holunda.camunda.bpm.data.adapter.ValueWrapperUtil.getTypedValue
 import io.holunda.camunda.bpm.data.adapter.ValueWrapperUtil.isAssignableFrom
 import io.holunda.camunda.bpm.data.adapter.WrongVariableTypeException
-import org.camunda.bpm.engine.variable.value.TypedValue
+import org.operaton.bpm.engine.variable.value.TypedValue
 import java.util.*
 
 /**

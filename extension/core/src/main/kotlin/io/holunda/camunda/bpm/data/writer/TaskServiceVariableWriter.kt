@@ -1,8 +1,8 @@
 package io.holunda.camunda.bpm.data.writer
 
 import io.holunda.camunda.bpm.data.factory.VariableFactory
-import org.camunda.bpm.engine.TaskService
-import org.camunda.bpm.engine.variable.VariableMap
+import org.operaton.bpm.engine.TaskService
+import org.operaton.bpm.engine.variable.VariableMap
 import java.util.*
 import java.util.function.Function
 

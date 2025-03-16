@@ -1,10 +1,10 @@
 package io.holunda.camunda.bpm.data.guard
 
 import io.holunda.camunda.bpm.data.guard.condition.VariableGuardCondition
-import org.camunda.bpm.engine.RuntimeService
-import org.camunda.bpm.engine.TaskService
-import org.camunda.bpm.engine.delegate.VariableScope
-import org.camunda.bpm.engine.variable.VariableMap
+import org.operaton.bpm.engine.RuntimeService
+import org.operaton.bpm.engine.TaskService
+import org.operaton.bpm.engine.delegate.VariableScope
+import org.operaton.bpm.engine.variable.VariableMap
 
 /**
  * Guard on a set of variables.

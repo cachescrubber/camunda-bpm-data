@@ -9,11 +9,11 @@ import io.holunda.camunda.bpm.data.writer.CaseServiceVariableWriter
 import io.holunda.camunda.bpm.data.writer.RuntimeServiceVariableWriter
 import io.holunda.camunda.bpm.data.writer.TaskServiceVariableWriter
 import org.assertj.core.api.Assertions.assertThat
-import org.camunda.bpm.engine.CaseService
-import org.camunda.bpm.engine.RuntimeService
-import org.camunda.bpm.engine.TaskService
-import org.camunda.bpm.engine.variable.Variables.createVariables
-import org.camunda.bpm.engine.variable.Variables.stringValue
+import org.operaton.bpm.engine.CaseService
+import org.operaton.bpm.engine.RuntimeService
+import org.operaton.bpm.engine.TaskService
+import org.operaton.bpm.engine.variable.Variables.createVariables
+import org.operaton.bpm.engine.variable.Variables.stringValue
 import org.junit.jupiter.api.Test
 import java.util.*
 

@@ -19,12 +19,13 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.camunda.spin</groupId>
-      <artifactId>camunda-spin-core</artifactId>
+      <groupId>org.operaton.spin</groupId>
+      <artifactId>operaton-spin-core</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.camunda.spin</groupId>
-      <artifactId>camunda-spin-dataformat-json-jackson</artifactId>
+      <groupId>org.operaton.spin</groupId>
+      <artifactId>operaton-spin-dataformat-json-jackson</artifactId>
+      <version>${operaton.version}</version>
     </dependency>
     <dependency>
       <groupId>org.slf4j</groupId>
@@ -33,8 +34,8 @@
     </dependency>
     <!-- Engine -->
     <dependency>
-      <groupId>org.camunda.bpm</groupId>
-      <artifactId>camunda-engine</artifactId>
+      <groupId>org.operaton.bpm</groupId>
+      <artifactId>operaton-engine</artifactId>
       <scope>test</scope>
     </dependency>
   </dependencies>

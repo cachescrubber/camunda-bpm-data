@@ -2,7 +2,7 @@ package io.holunda.camunda.bpm.data.builder;
 
 import io.holunda.camunda.bpm.data.CamundaBpmData;
 import io.holunda.camunda.bpm.data.factory.VariableFactory;
-import org.camunda.bpm.engine.variable.VariableMap;
+import org.operaton.bpm.engine.variable.VariableMap;
 import org.junit.jupiter.api.Test;
 
 import static io.holunda.camunda.bpm.data.CamundaBpmData.stringVariable;
