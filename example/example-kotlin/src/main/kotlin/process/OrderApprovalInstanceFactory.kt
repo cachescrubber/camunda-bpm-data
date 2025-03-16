@@ -2,7 +2,7 @@ package io.holunda.camunda.bpm.data.example.kotlin.process
 
 import io.holunda.camunda.bpm.data.builder.VariableMapBuilder
 import io.holunda.camunda.bpm.data.example.kotlin.process.OrderApproval.Variables.ORDER_ID
-import org.camunda.bpm.engine.RuntimeService
+import org.operaton.bpm.engine.RuntimeService
 import org.springframework.stereotype.Component
 import java.util.*
 

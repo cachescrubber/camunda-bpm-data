@@ -3,12 +3,12 @@ package io.holunda.camunda.bpm.data.factory
 import io.holunda.camunda.bpm.data.adapter.ReadAdapter
 import io.holunda.camunda.bpm.data.adapter.WriteAdapter
 import io.holunda.camunda.bpm.data.adapter.list.*
-import org.camunda.bpm.engine.CaseService
-import org.camunda.bpm.engine.RuntimeService
-import org.camunda.bpm.engine.TaskService
-import org.camunda.bpm.engine.delegate.VariableScope
-import org.camunda.bpm.engine.externaltask.LockedExternalTask
-import org.camunda.bpm.engine.variable.VariableMap
+import org.operaton.bpm.engine.CaseService
+import org.operaton.bpm.engine.RuntimeService
+import org.operaton.bpm.engine.TaskService
+import org.operaton.bpm.engine.delegate.VariableScope
+import org.operaton.bpm.engine.externaltask.LockedExternalTask
+import org.operaton.bpm.engine.variable.VariableMap
 import java.util.*
 
 /**

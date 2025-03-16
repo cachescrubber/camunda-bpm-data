@@ -2,7 +2,7 @@ package io.holunda.camunda.bpm.data.factory
 
 import io.holunda.camunda.bpm.data.CamundaBpmData
 import org.assertj.core.api.Assertions
-import org.camunda.bpm.engine.variable.Variables
+import org.operaton.bpm.engine.variable.Variables
 import org.junit.jupiter.api.Test
 import java.util.*
 

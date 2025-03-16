@@ -1,6 +1,6 @@
 package io.holunda.camunda.bpm.data.adapter.basic
 
-import org.camunda.bpm.engine.CaseService
+import org.operaton.bpm.engine.CaseService
 import java.util.*
 
 /**

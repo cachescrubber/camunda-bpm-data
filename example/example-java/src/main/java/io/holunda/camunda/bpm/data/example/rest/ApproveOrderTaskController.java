@@ -1,8 +1,8 @@
 package io.holunda.camunda.bpm.data.example.rest;
 
 import io.holunda.camunda.bpm.data.example.domain.Order;
-import org.camunda.bpm.engine.TaskService;
-import org.camunda.bpm.engine.variable.VariableMap;
+import org.operaton.bpm.engine.TaskService;
+import org.operaton.bpm.engine.variable.VariableMap;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

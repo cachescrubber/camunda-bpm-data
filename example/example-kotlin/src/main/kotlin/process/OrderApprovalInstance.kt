@@ -1,6 +1,6 @@
 package io.holunda.camunda.bpm.data.example.kotlin.process
 
-import org.camunda.bpm.engine.runtime.ProcessInstance
+import org.operaton.bpm.engine.runtime.ProcessInstance
 
 /**
  * Represents order delivery process instance.

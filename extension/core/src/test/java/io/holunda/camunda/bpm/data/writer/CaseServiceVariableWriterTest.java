@@ -2,7 +2,7 @@ package io.holunda.camunda.bpm.data.writer;
 
 import io.holunda.camunda.bpm.data.CamundaBpmData;
 import io.holunda.camunda.bpm.data.factory.VariableFactory;
-import org.camunda.bpm.engine.CaseService;
+import org.operaton.bpm.engine.CaseService;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -11,7 +11,7 @@ import org.mockito.Mockito;
 import java.util.UUID;
 
 import static io.holunda.camunda.bpm.data.CamundaBpmData.stringVariable;
-import static org.camunda.bpm.engine.variable.Variables.stringValue;
+import static org.operaton.bpm.engine.variable.Variables.stringValue;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 

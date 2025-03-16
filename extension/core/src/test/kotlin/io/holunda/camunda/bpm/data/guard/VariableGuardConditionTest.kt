@@ -4,7 +4,7 @@ import io.holunda.camunda.bpm.data.CamundaBpmData.customVariable
 import io.holunda.camunda.bpm.data.CamundaBpmData.stringVariable
 import io.holunda.camunda.bpm.data.guard.condition.*
 import org.assertj.core.api.Assertions.assertThat
-import org.camunda.bpm.engine.variable.Variables.createVariables
+import org.operaton.bpm.engine.variable.Variables.createVariables
 import org.junit.jupiter.api.Test
 import java.util.*
 import java.util.function.Supplier

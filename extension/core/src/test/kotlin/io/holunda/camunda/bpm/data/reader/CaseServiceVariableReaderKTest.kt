@@ -3,7 +3,7 @@ package io.holunda.camunda.bpm.data.reader
 import io.holunda.camunda.bpm.data.CamundaBpmData.reader
 import io.holunda.camunda.bpm.data.CamundaBpmData.stringVariable
 import org.assertj.core.api.Assertions
-import org.camunda.bpm.engine.CaseService
+import org.operaton.bpm.engine.CaseService
 import org.junit.jupiter.api.AfterEach
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test

@@ -2,8 +2,8 @@ package io.holunda.camunda.bpm.data.builder
 
 import io.holunda.camunda.bpm.data.factory.VariableFactory
 import io.holunda.camunda.bpm.data.writer.VariableMapWriter
-import org.camunda.bpm.engine.variable.VariableMap
-import org.camunda.bpm.engine.variable.Variables
+import org.operaton.bpm.engine.variable.VariableMap
+import org.operaton.bpm.engine.variable.Variables
 import java.util.*
 
 /**

@@ -1,7 +1,7 @@
 package io.holunda.camunda.bpm.data.acl.apply
 
-import org.camunda.bpm.engine.delegate.VariableScope
-import org.camunda.bpm.engine.variable.VariableMap
+import org.operaton.bpm.engine.delegate.VariableScope
+import org.operaton.bpm.engine.variable.VariableMap
 
 /**
  * Replaces variables of local scope with given variable map.

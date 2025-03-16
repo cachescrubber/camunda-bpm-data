@@ -1,7 +1,7 @@
 package io.holunda.camunda.bpm.data.adapter.listofmaps
 
 import io.holunda.camunda.bpm.data.adapter.ValueWrapperUtil.getTypedValue
-import org.camunda.bpm.engine.variable.VariableMap
+import org.operaton.bpm.engine.variable.VariableMap
 import java.util.*
 
 /**

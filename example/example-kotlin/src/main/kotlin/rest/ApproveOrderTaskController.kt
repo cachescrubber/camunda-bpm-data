@@ -4,8 +4,8 @@ import io.holunda.camunda.bpm.data.example.kotlin.domain.Order
 import io.holunda.camunda.bpm.data.example.kotlin.process.OrderApproval.Variables.ORDER
 import io.holunda.camunda.bpm.data.example.kotlin.process.OrderApproval.Variables.ORDER_APPROVED
 import io.holunda.camunda.bpm.data.example.kotlin.process.OrderApproval.Variables.ORDER_TOTAL
-import org.camunda.bpm.engine.TaskService
-import org.camunda.bpm.engine.variable.Variables.createVariables
+import org.operaton.bpm.engine.TaskService
+import org.operaton.bpm.engine.variable.Variables.createVariables
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
 import java.math.BigDecimal

@@ -1,8 +1,8 @@
 package io.holunda.camunda.bpm.data;
 
-import org.camunda.bpm.engine.ProcessEngine;
-import org.camunda.bpm.engine.ProcessEngineServices;
-import org.camunda.bpm.engine.delegate.ProcessEngineServicesAware;
+import org.operaton.bpm.engine.ProcessEngine;
+import org.operaton.bpm.engine.ProcessEngineServices;
+import org.operaton.bpm.engine.delegate.ProcessEngineServicesAware;
 
 /**
  * Copy of the fake to avoid dependency to camunda-platform-7-mockito (to avoid cyclic dependency graph).

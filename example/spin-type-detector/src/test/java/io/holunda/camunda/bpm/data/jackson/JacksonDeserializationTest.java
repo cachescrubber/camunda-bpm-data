@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
-import static org.camunda.bpm.model.xml.test.assertions.ModelAssertions.assertThat;
+import static org.operaton.bpm.model.xml.test.assertions.ModelAssertions.assertThat;
 
 public class JacksonDeserializationTest {
 

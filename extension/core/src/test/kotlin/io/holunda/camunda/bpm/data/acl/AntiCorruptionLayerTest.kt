@@ -12,12 +12,12 @@ import io.holunda.camunda.bpm.data.guard.VariablesGuard
 import io.holunda.camunda.bpm.data.guard.condition.matches
 import io.holunda.camunda.bpm.data.guard.integration.GuardViolationException
 import org.assertj.core.api.Assertions.assertThat
-import org.camunda.bpm.engine.ProcessEngineConfiguration
-import org.camunda.bpm.engine.impl.cfg.StandaloneInMemProcessEngineConfiguration
-import org.camunda.bpm.engine.impl.context.Context
-import org.camunda.bpm.engine.test.mock.MockExpressionManager
-import org.camunda.bpm.engine.variable.VariableMap
-import org.camunda.bpm.engine.variable.value.ObjectValue
+import org.operaton.bpm.engine.ProcessEngineConfiguration
+import org.operaton.bpm.engine.impl.cfg.StandaloneInMemProcessEngineConfiguration
+import org.operaton.bpm.engine.impl.context.Context
+import org.operaton.bpm.engine.test.mock.MockExpressionManager
+import org.operaton.bpm.engine.variable.VariableMap
+import org.operaton.bpm.engine.variable.value.ObjectValue
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.assertThrows
 

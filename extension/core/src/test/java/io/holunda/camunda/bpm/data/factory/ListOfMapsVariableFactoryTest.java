@@ -6,11 +6,11 @@ import io.holunda.camunda.bpm.data.adapter.listofmaps.ListOfMapsReadWriteAdapter
 import io.holunda.camunda.bpm.data.adapter.listofmaps.ListOfMapsReadWriteAdapterTaskService;
 import io.holunda.camunda.bpm.data.adapter.listofmaps.ListOfMapsReadWriteAdapterVariableMap;
 import io.holunda.camunda.bpm.data.adapter.listofmaps.ListOfMapsReadWriteAdapterVariableScope;
-import org.camunda.bpm.engine.CaseService;
-import org.camunda.bpm.engine.RuntimeService;
-import org.camunda.bpm.engine.TaskService;
-import org.camunda.bpm.engine.delegate.DelegateExecution;
-import org.camunda.bpm.engine.variable.VariableMap;
+import org.operaton.bpm.engine.CaseService;
+import org.operaton.bpm.engine.RuntimeService;
+import org.operaton.bpm.engine.TaskService;
+import org.operaton.bpm.engine.delegate.DelegateExecution;
+import org.operaton.bpm.engine.variable.VariableMap;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;

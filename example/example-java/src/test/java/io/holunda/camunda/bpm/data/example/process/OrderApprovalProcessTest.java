@@ -3,12 +3,12 @@ package io.holunda.camunda.bpm.data.example.process;
 import io.holunda.camunda.bpm.data.builder.VariableMapBuilder;
 import io.holunda.camunda.bpm.data.example.domain.Order;
 import io.holunda.camunda.bpm.data.example.domain.OrderPosition;
-import org.camunda.bpm.engine.delegate.JavaDelegate;
-import org.camunda.bpm.engine.test.Deployment;
-import org.camunda.bpm.engine.test.junit5.ProcessEngineExtension;
-import org.camunda.bpm.engine.test.mock.Mocks;
-import org.camunda.bpm.spring.boot.starter.test.helper.StandaloneInMemoryTestConfiguration;
-import org.camunda.spin.plugin.impl.SpinProcessEnginePlugin;
+import org.operaton.bpm.engine.delegate.JavaDelegate;
+import org.operaton.bpm.engine.test.Deployment;
+import org.operaton.bpm.engine.test.junit5.ProcessEngineExtension;
+import org.operaton.bpm.engine.test.mock.Mocks;
+import org.operaton.bpm.spring.boot.starter.test.helper.StandaloneInMemoryTestConfiguration;
+import org.operaton.spin.plugin.impl.SpinProcessEnginePlugin;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.RegisterExtension;
@@ -20,7 +20,7 @@ import java.util.Arrays;
 
 import static io.holunda.camunda.bpm.data.example.process.OrderApproval.Elements.*;
 import static io.holunda.camunda.bpm.data.example.process.OrderApproval.*;
-import static org.camunda.bpm.engine.test.assertions.bpmn.BpmnAwareTests.*;
+import static org.operaton.bpm.engine.test.assertions.bpmn.BpmnAwareTests.*;
 
 @Deployment(resources = "order_approval.bpmn")
 public class OrderApprovalProcessTest {

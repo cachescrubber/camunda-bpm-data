@@ -7,16 +7,16 @@ import java.time.Instant;
 import java.util.Date;
 import java.util.UUID;
 
-import org.camunda.bpm.engine.variable.type.PrimitiveValueType;
-import org.camunda.bpm.engine.variable.value.BooleanValue;
-import org.camunda.bpm.engine.variable.value.DateValue;
-import org.camunda.bpm.engine.variable.value.DoubleValue;
-import org.camunda.bpm.engine.variable.value.IntegerValue;
-import org.camunda.bpm.engine.variable.value.LongValue;
-import org.camunda.bpm.engine.variable.value.ObjectValue;
-import org.camunda.bpm.engine.variable.value.ShortValue;
-import org.camunda.bpm.engine.variable.value.StringValue;
-import org.camunda.bpm.engine.variable.value.TypedValue;
+import org.operaton.bpm.engine.variable.type.PrimitiveValueType;
+import org.operaton.bpm.engine.variable.value.BooleanValue;
+import org.operaton.bpm.engine.variable.value.DateValue;
+import org.operaton.bpm.engine.variable.value.DoubleValue;
+import org.operaton.bpm.engine.variable.value.IntegerValue;
+import org.operaton.bpm.engine.variable.value.LongValue;
+import org.operaton.bpm.engine.variable.value.ObjectValue;
+import org.operaton.bpm.engine.variable.value.ShortValue;
+import org.operaton.bpm.engine.variable.value.StringValue;
+import org.operaton.bpm.engine.variable.value.TypedValue;
 import org.junit.jupiter.api.Test;
 
 public class ValueWrapperUtilTest {

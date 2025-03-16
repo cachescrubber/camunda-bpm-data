@@ -1,10 +1,10 @@
 package io.holunda.camunda.bpm.data;
 
 
-import org.camunda.bpm.engine.delegate.DelegateExecution;
-import org.camunda.bpm.engine.runtime.Incident;
-import org.camunda.bpm.model.bpmn.BpmnModelInstance;
-import org.camunda.bpm.model.bpmn.instance.FlowElement;
+import org.operaton.bpm.engine.delegate.DelegateExecution;
+import org.operaton.bpm.engine.runtime.Incident;
+import org.operaton.bpm.model.bpmn.BpmnModelInstance;
+import org.operaton.bpm.model.bpmn.instance.FlowElement;
 import org.mockito.Mockito;
 
 import java.util.HashMap;

@@ -2,8 +2,8 @@ package io.holunda.camunda.bpm.data.reader;
 
 import io.holunda.camunda.bpm.data.CamundaBpmData;
 import io.holunda.camunda.bpm.data.factory.VariableFactory;
-import org.camunda.bpm.engine.externaltask.LockedExternalTask;
-import org.camunda.bpm.engine.variable.Variables;
+import org.operaton.bpm.engine.externaltask.LockedExternalTask;
+import org.operaton.bpm.engine.variable.Variables;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -20,7 +20,7 @@ import static io.holunda.camunda.bpm.data.CamundaBpmData.uuidVariable;
 import static java.util.Arrays.asList;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
-import static org.camunda.bpm.engine.impl.util.CollectionUtil.asHashSet;
+import static org.operaton.bpm.engine.impl.util.CollectionUtil.asHashSet;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 

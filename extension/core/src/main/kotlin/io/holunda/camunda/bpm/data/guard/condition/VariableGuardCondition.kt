@@ -2,10 +2,10 @@ package io.holunda.camunda.bpm.data.guard.condition
 
 import io.holunda.camunda.bpm.data.factory.VariableFactory
 import io.holunda.camunda.bpm.data.guard.GuardViolation
-import org.camunda.bpm.engine.RuntimeService
-import org.camunda.bpm.engine.TaskService
-import org.camunda.bpm.engine.delegate.VariableScope
-import org.camunda.bpm.engine.variable.VariableMap
+import org.operaton.bpm.engine.RuntimeService
+import org.operaton.bpm.engine.TaskService
+import org.operaton.bpm.engine.delegate.VariableScope
+import org.operaton.bpm.engine.variable.VariableMap
 import java.util.*
 
 /**

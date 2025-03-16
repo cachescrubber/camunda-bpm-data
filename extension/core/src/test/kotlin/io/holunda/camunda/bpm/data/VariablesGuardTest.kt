@@ -9,7 +9,7 @@ import io.holunda.camunda.bpm.data.guard.VariablesGuard
 import io.holunda.camunda.bpm.data.guard.VariablesGuard.Companion.ALL
 import io.holunda.camunda.bpm.data.guard.VariablesGuard.Companion.ONE_OF
 import org.assertj.core.api.Assertions.assertThat
-import org.camunda.bpm.engine.variable.Variables
+import org.operaton.bpm.engine.variable.Variables
 import org.junit.jupiter.api.Test
 import java.util.*
 

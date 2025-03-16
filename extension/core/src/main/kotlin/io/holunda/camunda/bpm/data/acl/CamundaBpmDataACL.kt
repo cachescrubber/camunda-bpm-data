@@ -5,7 +5,7 @@ import io.holunda.camunda.bpm.data.acl.apply.GlobalScopeReplaceStrategy
 import io.holunda.camunda.bpm.data.acl.apply.LocalScopeReplaceStrategy
 import io.holunda.camunda.bpm.data.acl.transform.VariableMapTransformer
 import io.holunda.camunda.bpm.data.guard.VariablesGuard
-import org.camunda.bpm.engine.variable.VariableMap
+import org.operaton.bpm.engine.variable.VariableMap
 
 /**
  * Helper methods to create anti corruption layers.

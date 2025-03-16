@@ -1,7 +1,7 @@
 package io.holunda.camunda.bpm.data.spin;
 
-import org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormat;
-import org.camunda.spin.spi.DataFormatConfigurator;
+import org.operaton.spin.impl.json.jackson.format.JacksonJsonDataFormat;
+import org.operaton.spin.spi.DataFormatConfigurator;
 
 /**
  * Spin configurator referenced in META-INF/services/org.camunda.spin.spi.DataFormatConfigurator.
