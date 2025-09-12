@@ -15,11 +15,12 @@ import org.assertj.core.api.Assertions.assertThat
 import org.operaton.bpm.engine.ProcessEngineConfiguration
 import org.operaton.bpm.engine.impl.cfg.StandaloneInMemProcessEngineConfiguration
 import org.operaton.bpm.engine.impl.context.Context
-import org.operaton.bpm.engine.test.mock.MockExpressionManager
+//import org.operaton.bpm.engine.test.mock.MockExpressionManager
 import org.operaton.bpm.engine.variable.VariableMap
 import org.operaton.bpm.engine.variable.value.ObjectValue
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.assertThrows
+import org.operaton.bpm.engine.impl.mock.MockExpressionManager
 
 class AntiCorruptionLayerTest {
 

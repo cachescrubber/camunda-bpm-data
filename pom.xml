@@ -20,7 +20,7 @@
 
     <camunda.version.ee>7.23.0</camunda.version.ee>
     <camunda.version.ce>7.23.0</camunda.version.ce>
-    <operaton.version>1.0.0-beta-4</operaton.version>
+    <operaton.version>1.0.0-beta-5</operaton.version>
 
     <spring-boot.version>3.4.5</spring-boot.version>
     <spin.version>7.23.0</spin.version>
@@ -109,6 +109,14 @@
     </dependency>
 
     <!-- Testing -->
+    <dependency>
+      <groupId>org.operaton.bpm</groupId>
+      <artifactId>operaton-engine</artifactId>
+      <classifier>junit5</classifier>
+      <scope>test</scope>
+      <version>${operaton.version}</version>
+    </dependency>
+
     <dependency>
       <groupId>org.mockito</groupId>
       <artifactId>mockito-core</artifactId>

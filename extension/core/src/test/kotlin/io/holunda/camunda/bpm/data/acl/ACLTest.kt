@@ -14,11 +14,13 @@ import org.operaton.bpm.engine.test.Deployment
 import org.operaton.bpm.engine.test.assertions.bpmn.BpmnAwareTests
 import org.operaton.bpm.engine.test.assertions.bpmn.BpmnAwareTests.task
 import org.operaton.bpm.engine.test.junit5.ProcessEngineExtension
-import org.operaton.bpm.engine.test.mock.MockExpressionManager
-import org.operaton.bpm.engine.test.mock.Mocks
 import org.operaton.bpm.engine.variable.VariableMap
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.extension.RegisterExtension
+//import org.operaton.bpm.engine.test.mock.MockExpressionManager
+import org.operaton.bpm.engine.impl.mock.MockExpressionManager
+//import org.operaton.bpm.engine.test.mock.Mocks
+import org.operaton.bpm.engine.impl.mock.Mocks
 
 
 @Deployment(resources = ["eventBasedSubprocess_no_transientMapping.bpmn", "eventBasedSubprocess_with_transientMapping.bpmn"])
