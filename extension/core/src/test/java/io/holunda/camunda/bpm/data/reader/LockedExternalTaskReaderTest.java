@@ -20,7 +20,6 @@ import static io.holunda.camunda.bpm.data.CamundaBpmData.uuidVariable;
 import static java.util.Arrays.asList;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
-//import static org.operaton.bpm.engine.impl.util.CollectionUtil.asHashSet;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 import static org.operaton.commons.utils.CollectionUtil.asHashSet;
